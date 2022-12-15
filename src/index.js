@@ -64,6 +64,7 @@ function showMovies(data) {
     main.appendChild(movieElement);
   });
 }
+
 function getClassByRate(vote) {
   if (vote >= 8) {
     return "green";
@@ -73,7 +74,7 @@ function getClassByRate(vote) {
     return "red";
   }
 }
-
+// search form event listener 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   const searchTerm = search.value;
@@ -83,9 +84,12 @@ form.addEventListener("submit", (e) => {
   }
 
 });
+
+//logout event listener
 logout.addEventListener("click", (e) => {
   e.preventDefault();
   console.log(`You are logged out`);
-  
+  main.remove()
+  header.remove()
 });
 
