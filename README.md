@@ -93,11 +93,13 @@ Just hovering on the movie banner should actually show the overview.For that we 
 
 ```
 
-## Meta
+Meta
+
+----
 
 Author:
 
-- **Cynthia Jepkosgei** - _Initial work_ - https://github.com/CindyMisoi/PHASE-1-PROJECT
+- **Cynthia Jepkosgei** - _Initial work_ - https://github.com/CindyMisoi/
 
 Status:
 maintained, and is currently in development
@@ -109,6 +111,7 @@ Usage
 ## License
 
 This project is licensed under the MIT License
+
 Documentation
 
 ---
