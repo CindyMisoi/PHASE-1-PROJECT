@@ -83,8 +83,9 @@ form.addEventListener("submit", (e) => {
   }
 
 });
-form.addEventListener("click", (e) => {
+logout.addEventListener("click", (e) => {
   e.preventDefault();
+  console.log(`You are logged out`);
   
 });
 
