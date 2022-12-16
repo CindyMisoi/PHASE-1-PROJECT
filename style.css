@@ -118,11 +118,17 @@ div {
   margin: 0;
 }
 
-.movie-info span {
-  color: red;
-  margin-left: 40px;
-}
-
+.movie-info span.green {
+    color: green;
+  }
+  
+  .movie-info span.orange {
+    color: orange;
+  }
+  
+  movie-info span.red {
+    color: red;
+  }
 .overview {
   background-color: #fff;
   padding: 2rem;

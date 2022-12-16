@@ -74,7 +74,7 @@ function getClassByRate(vote) {
     return "red";
   }
 }
-// search form event listener 
+// search form event listner 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   const searchTerm = search.value;
